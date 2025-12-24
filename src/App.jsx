@@ -2,6 +2,7 @@ import { useEffect, useLayoutEffect, useState } from 'react'
 import ChipsInput from './Component/NamasteDev/Easy/ChipsInput/ChipsInput';
 import LeapYear from './Component/NamasteDev/Easy/LeapYear/LeapYear';
 import Todo from './Component/Todo/Todo';
+import AutoSave from './Component/NamasteDev/Easy/AutoSave/AutoSave';
 
 function App() {
   const [count, setCount] = useState(1)
@@ -29,7 +30,8 @@ function App() {
       {/* <div>{text}</div> */}
       {/* <Traffic/> */}
       {/* <LeapYear /> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <AutoSave />
     </>
   )
 }
