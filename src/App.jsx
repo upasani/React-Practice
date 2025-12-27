@@ -5,6 +5,7 @@ import Todo from './Component/Todo/Todo';
 import AutoSave from './Component/NamasteDev/Easy/AutoSave/AutoSave';
 import FilterRecipe from './Component/NamasteDev/Easy/FilterRecipe/FilterRecipe';
 import ProgressBar from './Component/NamasteDev/Easy/ProgressBar/ProgressBar';
+import Zigzag from './Component/NamasteDev/Easy/Zigzag/Zigzag';
 import './index.css'
 
 function App() {
@@ -35,7 +36,7 @@ function App() {
       {/* <LeapYear /> */}
       {/* <Todo/> */}
       {/* <FilterRecipe /> */}
-      <ProgressBar/>
+      <Zigzag/>
     </>
   )
 }
