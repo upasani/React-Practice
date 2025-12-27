@@ -3,6 +3,8 @@ import ChipsInput from './Component/NamasteDev/Easy/ChipsInput/ChipsInput';
 import LeapYear from './Component/NamasteDev/Easy/LeapYear/LeapYear';
 import Todo from './Component/Todo/Todo';
 import AutoSave from './Component/NamasteDev/Easy/AutoSave/AutoSave';
+import FilterRecipe from './Component/NamasteDev/Easy/FilterRecipe/FilterRecipe';
+import './index.css'
 
 function App() {
   const [count, setCount] = useState(1)
@@ -31,7 +33,7 @@ function App() {
       {/* <Traffic/> */}
       {/* <LeapYear /> */}
       {/* <Todo/> */}
-      <AutoSave />
+      <FilterRecipe />
     </>
   )
 }
