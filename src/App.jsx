@@ -6,6 +6,7 @@ import AutoSave from './Component/NamasteDev/Easy/AutoSave/AutoSave';
 import FilterRecipe from './Component/NamasteDev/Easy/FilterRecipe/FilterRecipe';
 import ProgressBar from './Component/NamasteDev/Easy/ProgressBar/ProgressBar';
 import Zigzag from './Component/NamasteDev/Easy/Zigzag/Zigzag';
+import Acordian from './Component/NamasteDev/Easy/Acordian/Acordian';
 import './index.css'
 
 function App() {
@@ -26,8 +27,6 @@ function App() {
   // useEffect(() => setText(text + "!"));
 
 
-
-
   return (
     <>
       {/* <h2>{state.x}</h2> */}
@@ -36,7 +35,8 @@ function App() {
       {/* <LeapYear /> */}
       {/* <Todo/> */}
       {/* <FilterRecipe /> */}
-      <Zigzag/>
+      {/* <Zigzag/> */}
+      <Acordian />
     </>
   )
 }

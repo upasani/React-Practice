@@ -1,0 +1,14 @@
+.acordian-parent {
+    margin: 20px;
+    border: 1px solid grey;
+}
+.acordian-container {
+    background-color: lightgrey;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+.acordian-container:hover{
+    background-color: darkgrey;
+
+}
