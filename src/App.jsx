@@ -4,6 +4,7 @@ import LeapYear from './Component/NamasteDev/Easy/LeapYear/LeapYear';
 import Todo from './Component/Todo/Todo';
 import AutoSave from './Component/NamasteDev/Easy/AutoSave/AutoSave';
 import FilterRecipe from './Component/NamasteDev/Easy/FilterRecipe/FilterRecipe';
+import ProgressBar from './Component/NamasteDev/Easy/ProgressBar/ProgressBar';
 import './index.css'
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
       {/* <Traffic/> */}
       {/* <LeapYear /> */}
       {/* <Todo/> */}
-      <FilterRecipe />
+      {/* <FilterRecipe /> */}
+      <ProgressBar/>
     </>
   )
 }
