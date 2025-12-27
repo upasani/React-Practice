@@ -7,6 +7,7 @@ import FilterRecipe from './Component/NamasteDev/Easy/FilterRecipe/FilterRecipe'
 import ProgressBar from './Component/NamasteDev/Easy/ProgressBar/ProgressBar';
 import Zigzag from './Component/NamasteDev/Easy/Zigzag/Zigzag';
 import Acordian from './Component/NamasteDev/Easy/Acordian/Acordian';
+import PasswordToggle from './Component/NamasteDev/Easy/PasswordToggle/PasswordToggle';
 import './index.css'
 
 function App() {
@@ -36,7 +37,7 @@ function App() {
       {/* <Todo/> */}
       {/* <FilterRecipe /> */}
       {/* <Zigzag/> */}
-      <Acordian />
+      <PasswordToggle />
     </>
   )
 }
