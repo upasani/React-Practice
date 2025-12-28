@@ -9,6 +9,7 @@ import Zigzag from './Component/NamasteDev/Easy/Zigzag/Zigzag';
 import Acordian from './Component/NamasteDev/Easy/Acordian/Acordian';
 import PasswordToggle from './Component/NamasteDev/Easy/PasswordToggle/PasswordToggle';
 import TabsSwitcher from './Component/NamasteDev/Easy/TabsSwitcher/TabsSwitcher';
+import CharacterCount from './Component/NamasteDev/Easy/CharacterCount/CharacterCount';
 import './index.css'
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
       {/* <Zigzag/> */}
       {/* <PasswordToggle /> */}
       {/* <ProgressBar /> */}
-      <TabsSwitcher />
+      {/* <TabsSwitcher /> */}
+      <CharacterCount />
     </>
   )
 }
