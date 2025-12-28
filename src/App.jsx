@@ -4,10 +4,11 @@ import LeapYear from './Component/NamasteDev/Easy/LeapYear/LeapYear';
 import Todo from './Component/Todo/Todo';
 import AutoSave from './Component/NamasteDev/Easy/AutoSave/AutoSave';
 import FilterRecipe from './Component/NamasteDev/Easy/FilterRecipe/FilterRecipe';
-import ProgressBar from './Component/NamasteDev/Easy/ProgressBar/ProgressBar';
+// import ProgressBar from './Component/NamasteDev/Easy/ProgressBar/ProgressBar';
 import Zigzag from './Component/NamasteDev/Easy/Zigzag/Zigzag';
 import Acordian from './Component/NamasteDev/Easy/Acordian/Acordian';
 import PasswordToggle from './Component/NamasteDev/Easy/PasswordToggle/PasswordToggle';
+import TabsSwitcher from './Component/NamasteDev/Easy/TabsSwitcher/TabsSwitcher';
 import './index.css'
 
 function App() {
@@ -38,7 +39,8 @@ function App() {
       {/* <FilterRecipe /> */}
       {/* <Zigzag/> */}
       {/* <PasswordToggle /> */}
-      <ProgressBar/>
+      {/* <ProgressBar /> */}
+      <TabsSwitcher />
     </>
   )
 }
