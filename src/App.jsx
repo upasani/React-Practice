@@ -37,7 +37,8 @@ function App() {
       {/* <Todo/> */}
       {/* <FilterRecipe /> */}
       {/* <Zigzag/> */}
-      <PasswordToggle />
+      {/* <PasswordToggle /> */}
+      <ProgressBar/>
     </>
   )
 }
